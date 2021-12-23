@@ -59,10 +59,11 @@ namespace DermaScan.Functions
 
                         foreach (var i in afspraak)
                         {
+                            int tr = 1;
                             if (i.Text.Contains("afspraak dr Kerre - Aarschot") || i.Text.Contains("VRIJ PATIENT"))
                             {
                                 var url = i.FindElement(By.XPath(
-                                    "/html/body/div/div[4]/div[1]/div/div/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[2]/a"));
+                                    "/html/body/div/div[4]/div[1]/div/div/div[2]/div[2]/div[" + k + "]/div[2]/table/tbody/tr[" + tr +"]/td[2]/a"));
 
                                 String payLoad = date.Text + " " + i.Text;
                                 appointment = true;
@@ -71,6 +72,8 @@ namespace DermaScan.Functions
                                 Console.WriteLine(url.GetAttribute("href"));
                                 break;
                             }
+
+                            tr++;
                         }
 
                         if (appointment == true)

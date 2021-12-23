@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "7jLV5EOQ2X5BAxhtiG7ZNmYtDst6pT5lIkM8TLTCuXCy4zORsw1/e77ENza5ioqvAzjfrt0FPCtHGnO10dp0Xw==",
+  "dgSpecHash": "Xq2BMXITj1lwor247a7yNaliW2R8LNTPMy/PDartqpBM8+GFAXEjQZYok3eabRavoLnOIASSe/RfqrBV8XNvJA==",
   "success": true,
   "projectFilePath": "C:\\CSharp\\DermaScan\\DermaScan\\DermaScan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jp64e\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\jp64e\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512"
+    "C:\\Users\\jp64e\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
+    "C:\\Users\\jp64e\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.12\\microsoft.netcore.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\jp64e\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\jp64e\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.12\\microsoft.aspnetcore.app.runtime.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }
