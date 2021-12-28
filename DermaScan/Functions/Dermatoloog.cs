@@ -42,11 +42,14 @@ namespace DermaScan.Functions
 
             var dokter = driver.FindElements(By.XPath(
                 "/html/body/div/div[4]/div[1]/div/div/div[2]/div[2]/div/div[2]/table/tbody/tr"));
+
+            var loopCounter = 1;
             
 
             var appointment = false;
             while (appointment == false)
             {
+                Console.WriteLine(loopCounter);
                 for (var j = 0; j < days; j++)
                 {
                     for (var k = 1; k < dokter.Count + 1; k++)
@@ -94,6 +97,7 @@ namespace DermaScan.Functions
 
                 if (appointment == false)
                 {
+                    loopCounter++;
                     Console.WriteLine("Search was not successful.");
                     for (int i = 0; i < time; i++)
                     {
