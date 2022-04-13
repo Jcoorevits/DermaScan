@@ -231,7 +231,6 @@ C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\DermaScan.GeneratedMSBuil
 C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\DermaScan.AssemblyInfoInputs.cache
 C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\DermaScan.AssemblyInfo.cs
 C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\DermaScan.csproj.CoreCompileInputs.cache
-C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\DermaScan.csproj.CopyComplete
 C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\DermaScan.dll
 C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\ref\DermaScan.dll
 C:\CSharp\DermaScan\DermaScan\obj\Debug\net5.0\win-x64\DermaScan.pdb
