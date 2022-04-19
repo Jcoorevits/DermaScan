@@ -44,7 +44,9 @@ namespace DermaScan.Functions
                 "/html/body/div/div[4]/div[1]/div/div/div[2]/div[2]/div/div[2]/table/tbody/tr"));
 
             var loopCounter = 1;
-            
+
+            SendMail.Appointment("Mail Test", "Test", email);
+            Console.WriteLine("Test message send");
 
             var appointment = false;
             while (appointment == false)

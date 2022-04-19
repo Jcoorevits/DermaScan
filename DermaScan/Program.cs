@@ -21,6 +21,7 @@ namespace DermaScan
                 if (days != null && time != null)
                 {
                     Dermatoloog.Scraper(Int32.Parse(days), Int32.Parse(time), email);
+            
                 }
                 else
                 {

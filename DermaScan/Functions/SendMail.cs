@@ -29,6 +29,7 @@ namespace DermaScan.Functions
                 Body = body
             };
             smtp.Send(message);
+            
         }
     }
 }
