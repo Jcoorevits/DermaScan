@@ -27,8 +27,6 @@ jobs:
       run: dotnet publish -c Release -r win10-x64 -p:PublishSingleFile=true --self-contained false
     - name: Create dir
       run: mkdir ./newArchive
-    - name : cp chromedriver
-      run: cp ./DermaScan/bin/Debug/net5.0/chromedriver.exe ./newArchive
     - name : cp DermaScan
       run: cp /home/runner/work/DermaScan/DermaScan/DermaScan/bin/Release/net5.0/win10-x64/publish/**.exe ./newArchive
     
